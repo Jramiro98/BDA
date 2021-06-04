@@ -5,7 +5,7 @@
 </head>
 <body>
 	<h2>Borsa d'empreses</h2>
-		FORMULARI PER AFEGIR EMPRESES:
+		<p> FORMULARI PER AFEGIR EMPRESES: </p>
 	<div class = "row">
 		<form role="form" method="POST" action = "afegir.php">
 			<div>
@@ -19,7 +19,7 @@
 	</div>
 
 	<div class = "row">
-		FORMULARI PER A MODIFICAR DADES EMPRESES:
+		<p>FORMULARI PER A MODIFICAR DADES EMPRESES:</p>
 		<form role="form" method="POST" action = "edit.php">
 			<div>
 				Identificador Empresa: <input type="text" name="idEdit" id="idEdit"/>
@@ -32,7 +32,7 @@
 	</div>
 
 	<div class = "row">
-		FORMULARI PER A ELIMINAR UNA EMPRESA:
+		<p>FORMULARI PER A ELIMINAR UNA EMPRESA:</p>
 		<form role="form" method="POST" action = "delete.php">
 			<div>
 				Identificador Empresa: <input type="text" name="idDelete" id="idAdd"/>
